@@ -218,7 +218,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_m,		spawn,		SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
 	{ MODKEY,			XK_comma,	focusmon,	{.i = -1 } },
 	{ MODKEY,			XK_period,	focusmon,	{.i = +1 } },
-
+	{ MODKEY|ShiftMask,		XK_comma,	tagmon,		{.i = -1 } },
+	{ MODKEY|ShiftMask,		XK_period,	tagmon,		{.i = +1 } },
 	{ MODKEY,			XK_Left,	focusmon,	{.i = -1 } },
 	{ MODKEY|ShiftMask,		XK_Left,	tagmon,		{.i = -1 } },
 	{ MODKEY,			XK_Right,	focusmon,	{.i = +1 } },
