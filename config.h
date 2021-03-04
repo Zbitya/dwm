@@ -1,8 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
 /* constants */
-#define TERMINAL "st"
-#define TERMCLASS "St"
+#define TERMINAL "alacritty"
+#define TERMCLASS "Alacritty"
 
 /* appearance */
 static unsigned int borderpx  = 3;        /* border pixel of windows */
@@ -19,9 +19,9 @@ static char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:a
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#333333";
 static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#000000";
+static char selfgcolor[]            = "#121212";
 static char selbordercolor[]        = "#838996";
-static char selbgcolor[]            = "#f3ca20";
+static char selbgcolor[]            = "#1ab8d8";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
